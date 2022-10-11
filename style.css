@@ -1,7 +1,70 @@
 /*
-Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+Color Palette: 
+background color: #2192FF
+font-color: #562B08
+secondary color: #224B0C
+tertiary color:   
 */
+
+body {
+    color: #562B08;
+    background-color: #2192FF;
+}
+
+header {
+    text-align: center;
+    border-color: #562B08;
+    border-bottom: 2px solid #562B08;
+    border-right: 2px solid #562B08;
+    border-left: 2px solid #562B08;
+    border-top: 2px solid #562B08;
+}
+
+img {
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4.5rem;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p {
+    margin: 1rem 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+}
+cite {
+     margin: 1rem 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+}
+
+.mintimg {
+    height: 200px;
+    width: 400px;
+}
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    img {
+        max-width: 75%;
+    }
+}
