@@ -18,10 +18,13 @@ header {
     border-right: 2px solid #562B08;
     border-left: 2px solid #562B08;
     border-top: 2px solid #562B08;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 img {
-    border-radius: 15px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     margin: 2rem 4.5rem;
@@ -30,18 +33,20 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
 }
 p {
     margin: 1rem 4.5rem;
     font-weight: bold;
     text-align: center;
-    border-bottom: 1px;
-    border-top: 1px;
-    border-right: 1px;
-    border-left: 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px;
+    background-color: cyan;
+    font-family: sans-serif;
 }
 cite {
-     margin: 1rem 4.5rem;
+    margin: 1rem 4.5rem;
     font-weight: bold;
     text-align: center;
     border-bottom: 1px;
